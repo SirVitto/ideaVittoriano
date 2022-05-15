@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #ffd251;
+    background:linear-gradient(#f8b702, #ffd251);
 }
 
 /* estilos de header*/
@@ -40,6 +40,30 @@ nav ul li a{
     text-decoration: none;
     color: black; 
 }
+nav ul li a:hover{
+    color: gray; 
+}
+
+.menu li:hover .subMenu{
+    display: block;
+    
+}
+
+.subMenu{
+    display: block;
+    position: absolute;
+    text-align: center;
+    display: none;
+    
+}
+
+
+
+.desPle:hover{
+        color: #000;
+        background-color: #eaeaea;
+      }
+
 
 
 /* estilos de main*/
@@ -203,12 +227,13 @@ footer p{
 
     }
 
+
     footer{
         font-size: 0.5rem;
     }
 
     .infoNos{
-        font-size: 0.8rem;
+        font-size: 1rem;
         text-align: center;
     }
 }
